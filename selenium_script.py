@@ -16,8 +16,8 @@ landing_elements_2 = {
     }
 
     landing_elements = {
-        "store": (By.CSS_SELECTOR, "a[title='Tienda']"),
-        'packs': (By.CSS_SELECTOR, "a[title='Packs Ya']"),
+        "store": (By.XPATH, "a[title='Tienda']"),
+        'packs': (By.XPATH, "a[title='Packs Ya']"),
         'change': (By.CSS_SELECTOR, "a[title='Pasate a Claro']"),
         'footer_links': (By.CSS_SELECTOR, "li[class*='footer__item__links__item'] a")
     }
