@@ -18,8 +18,8 @@ landing_elements_2 = {
     landing_elements = {
         "store": (By.XPATH, "a[title='Tienda']"),
         'packs': (By.XPATH, "a[title='Packs Ya']"),
-        'change': (By.CSS_SELECTOR, "a[title='Pasate a Claro']"),
-        'footer_links': (By.CSS_SELECTOR, "li[class*='footer__item__links__item'] a")
+        'change': (By.XPATH, "a[title='Pasate a Claro']"),
+        'footer_links': (By.XPATH, "li[class*='footer__item__links__item'] a")
     }
     driver = create_chrome_driver()
     navigate_to(driver, 'https://www.claro.com.ar/personas')
